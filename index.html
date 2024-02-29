@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code generator</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>QR code generator</h1>
+        <div class="container">
+            <div class="controlers">
+                <input type="url" id="data" placeholder="Insert Link">
+                <button class="make_it" onclick="handler()"><i class="fa-solid fa-hammer"></i> Make it</button>
+            </div>
+            <div class="a"></div>
+            <img src="assets/img/google.png" id="output">
+            <textarea id="code_holder" style="display: none;"></textarea>
+            
+            <div class="b"></div>
+            <div class="actions">
+                <button class="btn btn_embed" onclick="embedCode()">EMBED <i class="fa-solid fa-link"></i></button>
+                <button class="btn btn_download" onclick="downloadIt()">DOWNLOAD <i class="fa-solid fa-download"></i></button>
+            </div>
+        </div>
+    </main>
+    <div class="msg"></div>
+    <script src="assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script> 
+</body>
+</html>

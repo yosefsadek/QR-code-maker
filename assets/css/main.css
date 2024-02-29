@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    margin: 3rem auto 1rem auto;
+}
+.container{
+    border: 2px solid #6396fb;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.controlers{
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+#data{
+    border: 2px solid #97999c;
+    padding: 10px 12px;
+    border-radius: 8px;
+    width: 250px;
+}
+.make_it{
+    background: #4fa2e3;
+    color: #1c0000;
+    border: 1px solid #86868e;
+    border-radius: 13px;
+    padding: 10px 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn{
+    cursor: pointer;
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #253a7e;
+    font-weight: 600;
+    margin: 10px 0;
+    
+    border-bottom: 4px solid #000;
+    border-right: 4px solid #000;
+}
+.btn:active{
+    border-bottom: 3px solid #253a7e !important;
+    border-right: 3px solid #253a7e !important;
+}
+.btn_embed{
+    color: #3b5da3;
+    background: none;
+}
+.btn_download{
+    background: #3b5da3;
+    color: #fff;
+}
+.actions{
+    margin-top: 5rem;
+}
+.msg{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: #ffac00b8; */
+    /* background: #7fdb60b8; */
+    padding: 12px 20px 12px 9px;
+    border-bottom-right-radius: 30px;
+    font-weight: 500;
+    color: #3d3d3d;
+}
